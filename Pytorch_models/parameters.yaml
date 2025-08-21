@@ -1,0 +1,20 @@
+num_osc: 5
+patient_num: 20
+t_end: 10 # End time of chunk signal
+
+forward_num_epochs: 20000
+lstm_num_epochs: 1000
+
+learning_rate: 0.01
+hidden_size: 100
+num_layers: 2
+output_size: 1
+
+const: 0.008
+k: 0.01
+a: 0.05
+b: 0.2
+c: 5.7
+d: 8
+Iext: 0.08
+num_points: 1100000
