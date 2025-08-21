@@ -1,0 +1,18 @@
+t_end : 10
+patient_num : 20
+
+num_osc: 5
+a : 0.05
+b : 0.2
+c : 5.7
+d : 8
+Iext : 0.08
+const : 0.008
+k : 0.01
+num_points : 1100000
+
+output_dim : 200
+output_size : 1
+timesteps : 500
+num_epochs : 5000
+learning_rate : 0.01
