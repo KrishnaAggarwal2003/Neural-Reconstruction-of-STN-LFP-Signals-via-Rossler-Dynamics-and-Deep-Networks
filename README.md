@@ -80,6 +80,9 @@ result = training_mode(model, data, target, batch_num, learning_rate, num_epochs
 
 ## Plots and Visualisations
 ### Feed-forward & LSTM Models
+
+#### Training phase
+<img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/4d963387-a2b7-455b-8776-e61080195539" />
 #### Time-domain Reconstruction
 Visualizes how well the neural model maps Rossler inputs to experimental LFP outputs.
 
