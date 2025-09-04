@@ -54,14 +54,14 @@ pip install torch numpy scipy matplotlib pyyaml tqdm hdf5storage tensorflow
 
 ## Methodology
 ### Training Procedure
-The training loop optimizes models to minimize reconstruction error between Rossler-generated input and LFP target signals.
+The training loop optimizes models to minimize the reconstruction error between the Rossler-generated input and the LFP target signals.
 ```python
 from main import run_code
 
-# Train with Feed-forward network
+# Train with a Feed-forward network
 results = run_code("Feed-forward")
 
-# Train with LSTM network
+# Train with an LSTM network
 results = run_code("LSTM model")
 ```
 
@@ -127,6 +127,6 @@ FFT plots comparing synthetic and biological signals highlight overlapping spect
 
 ---
 For detailed information on the oscillator network & Pytorch model architecture and results, refer to this PDF report
-[Pytorch model report – PDF](https://github.com/KrishnaAggarwal2003/Neural-Reconstruction-of-STN-LFP-Signals-via-Rossler-Dynamics-and-Deep-Networks/blob/main/Pytorch_models/project_report.pdf)
+- [Pytorch model report – PDF](https://github.com/KrishnaAggarwal2003/Neural-Reconstruction-of-STN-LFP-Signals-via-Rossler-Dynamics-and-Deep-Networks/blob/main/Pytorch_models/project_report.pdf)
 
 
