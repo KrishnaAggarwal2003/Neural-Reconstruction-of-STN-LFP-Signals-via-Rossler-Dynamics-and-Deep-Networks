@@ -81,15 +81,23 @@ result = training_mode(model, data, target, batch_num, learning_rate, num_epochs
 ## Plots and Visualisations
 ### Feed-forward & LSTM Models
 
-#### Training phase
-<img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/4d963387-a2b7-455b-8776-e61080195539" />
 #### Time-domain Reconstruction
 Visualizes how well the neural model maps Rossler inputs to experimental LFP outputs.
+
+#### Training phase
+<img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/4d963387-a2b7-455b-8776-e61080195539" />
+
+#### Testing phase
+<img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/3f3cfeee-2418-4fc9-aa7c-67393de1edea" />
 
 #### Frequency-domain Analysis
 FFT plots comparing synthetic and biological signals highlight overlapping spectral peaks.
 - A notable observation is the beta synchronization peak (13–30 Hz) in LFP signals, a phenomenon linked to Parkinson’s disease pathology.
 - Capturing this feature in reconstructed signals validates both the model and its ability to preserve clinically relevant biomarkers.
 
+<img width="490" height="390" alt="Image" src="https://github.com/user-attachments/assets/686e5aa7-0093-497e-afc4-52617471d191" />
+
 #### Whole-signal Evaluation
 - Entire reconstructed LFP signals plotted alongside original LFP recordings.
+
+<img width="990" height="490" alt="Image" src="https://github.com/user-attachments/assets/fb982f54-9524-43d4-980e-8f4b550dddf4" />
