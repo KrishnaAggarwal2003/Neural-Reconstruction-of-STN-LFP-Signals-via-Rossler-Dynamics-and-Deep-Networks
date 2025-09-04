@@ -127,5 +127,5 @@ FFT plots comparing synthetic and biological signals highlight overlapping spect
 
 ---
 For detailed information on the oscillator network & Pytorch model architecture and results, refer to this PDF report
-[https://github.com/KrishnaAggarwal2003/Neural-Reconstruction-of-STN-LFP-Signals-via-Rossler-Dynamics-and-Deep-Networks/blob/main/Pytorch_models/project_report.pdf](Pytorch_model_report)
+(https://github.com/KrishnaAggarwal2003/Neural-Reconstruction-of-STN-LFP-Signals-via-Rossler-Dynamics-and-Deep-Networks/blob/main/Pytorch_models/project_report.pdf)[Pytorch_model_report]
 
