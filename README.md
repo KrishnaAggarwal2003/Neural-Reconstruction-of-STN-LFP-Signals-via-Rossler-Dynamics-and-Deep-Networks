@@ -90,14 +90,38 @@ Visualizes how well the neural model maps Rossler inputs to experimental LFP out
 #### Testing phase
 <img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/3f3cfeee-2418-4fc9-aa7c-67393de1edea" />
 
-#### Frequency-domain Analysis
+### Frequency-domain Analysis
 FFT plots comparing synthetic and biological signals highlight overlapping spectral peaks.
 - A notable observation is the beta synchronization peak (13–30 Hz) in LFP signals, a phenomenon linked to Parkinson’s disease pathology.
 - Capturing this feature in reconstructed signals validates both the model and its ability to preserve clinically relevant biomarkers.
 
 <img width="490" height="390" alt="Image" src="https://github.com/user-attachments/assets/686e5aa7-0093-497e-afc4-52617471d191" />
 
-#### Whole-signal Evaluation
+### Whole-signal Evaluation
 - Entire reconstructed LFP signals plotted alongside original LFP recordings.
 
 <img width="990" height="490" alt="Image" src="https://github.com/user-attachments/assets/fb982f54-9524-43d4-980e-8f4b550dddf4" />
+
+
+### Flip-flop model
+
+#### Time-domain Reconstruction
+
+#### Training phase
+<img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/154d9799-7fa2-4660-8acc-6f54a201ade6" />
+
+
+#### Testing phase
+<img width="1214" height="312" alt="Image" src="https://github.com/user-attachments/assets/b52b1653-5fb5-4c04-b959-66f85f3036be" />
+
+### Frequency-domain Analysis
+
+#### Plot after training
+<img width="490" height="390" alt="Image" src="https://github.com/user-attachments/assets/4a66905d-3fc6-4667-a444-11b6dbdf95af" />
+
+#### Test plot
+<img width="490" height="390" alt="Image" src="https://github.com/user-attachments/assets/d7d3145f-3bca-4aed-87fb-2090a74f5c65" />
+
+### Whole-signal Evaluation
+<img width="990" height="490" alt="Image" src="https://github.com/user-attachments/assets/b625f466-6cb6-47da-9215-dafe174c543f" />
+
